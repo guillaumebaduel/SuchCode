@@ -1,0 +1,30 @@
+Vous avez une demi-journée pour faire l'exercice. Les BONUS ne sont pas obligatoires mais certains sont très simple à réaliser. Tout vous est autorisé, même l'utilisation d'internet.
+
+Si vous ne comprenez rien ou qu'un élément vous semble abstrait, pas de soucis ! appellez moi :)
+
+La structure de base est mise en place, à vous de l'utiliser ou pas.
+
+Pensez bien au best practices, utilisez un code propre, compréhensible et commenté au possible. Faite nous réver !v
+
+Bonne chance et que le monstre en spaghettis volant vous vienne en aide !
+
+=============================================================================
+
+Enoncé :
+
+1) Intégrer la maquette au plus proche sans les typographies
+    => Vous êtes libre sur les états :hover :focus ...
+
+2) Dynamiser "Our success stories" en récupérant les 3 derniers articles de l'API Santor au format JSON avec cette URL : http://46.105.48.146/api/v1/articles?nb_items=3
+    => Il faut donc remplacer le contenu des articles de la maquette par le contenu des articles de l'API
+    => Pensez à prendre en compte le fait qu'il n'y à pas forcément de contenu dans l'article renvoyé par l'API et donc mettre une image et du texte par defaut
+    => Pensez à tronquer vos textes !
+
+3) Utiliser jQuery pour faire un call AJAX au click sur un article pour en afficher le détail, à la place des 3 articles. Le contenu d'un article se récupère ici http://46.105.48.146/api/v1/articles/6f01c08ea8065e8f82612e74c8ddb8d2. Il faudrat juste remplacer l'id en fonction de l'article.
+
+BONUS :
+    - Utiliser une belle google font comme roboto !
+    - Faite le responsive du site à votre convenance grâce aux media Queries ( ne faire que la version mobile où la taille de votre navigateur est > 720px)
+    - Faire un bouton de retour sur le détail d'un article pour recharger la page précédente
+    - Faire une animation de transition entre les articles affichés et le détail d'un article
+    - Créer une factory en PHP qui va gérer plus facilement la gestion des articles depuis l'API

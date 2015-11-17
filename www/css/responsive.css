@@ -1,0 +1,160 @@
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+
+/* for 720px or more */
+@media screen and (min-width : 720px) {
+
+}
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	section {
+	    margin: 0 auto;
+    	width: 98%;
+    	margin-left:10px;
+
+	}
+
+	img {
+		width:1000px;
+	}
+	#container {
+	
+		width:500px;
+	
+		
+	
+	}
+
+	.item {
+		
+		
+		clear: left;
+		 min-width: 100%;
+		margin-bottom:10px;
+		
+
+	
+	}
+	.btn {
+
+			min-width:100%;
+
+ 
+
+	}
+
+
+/* Jumbotron */
+	.jumbotron {
+	
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	.jumbotron h1 {
+	
+		font-size:20px;
+		width:100%;
+		line-height: 100%;
+		margin-bottom:10px;
+	}
+
+
+	.jumbotron p {
+		color:white;
+		font-size:14px;
+		width:100%;
+		line-height: 20px;
+	}
+
+	.jumbotron strong {
+	
+		font-size:14px;
+		font-weight: 900;
+		
+
+	}
+
+
+/* Form */
+	form {
+
+	}
+
+	.form-inline {
+	
+
+	}
+
+	.form-inline span {
+
+	
+
+
+	}
+
+	.form-inline input[type="text"] {
+	  width:100px;
+
+	 
+	 
+
+	}
+
+
+
+
+/* Input */
+	input[type="text"] {
+		margin-bottom:30px;
+
+	min-width:100%;
+	 
+margin-left:10px;
+
+	}
+
+	form {
+
+	}
+
+	.form-inline {
+		display:block;
+
+	}
+
+	.form-inline span {
+
+		clear: left;
+
+
+	}
+
+	.form-inline input[type="text"] {
+
+	  margin-top:-8px;
+	  padding:10px;
+	  width:200px;
+	  display: block;
+	 
+
+
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+
+
+}
